@@ -1,0 +1,22 @@
+{
+    "name": "alexander/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "authors": [
+        {
+            "name": "Alexander Pozas",
+            "email": "a.posas@outlook.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Model\\" : "./models",
+            "Controlador\\" : "./controladores"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+package.json
+package-lock.json
+gulpfile.js
+cypress.json
+src/
+vendor/
+node_modules/
+DS_STORE
+cypress/
+.env
