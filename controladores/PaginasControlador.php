@@ -33,7 +33,6 @@ class PaginasControlador
     public static function propiedad(Router $router)
     {
         $id = validarORedireccionar('/propiedades');
-        debug($id);
         $propiedad = Propiedad::find($id);
 
         $router->render('/paginas/propiedad', [
